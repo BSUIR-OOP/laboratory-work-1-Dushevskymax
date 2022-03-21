@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Lab1
 {
-    class Ellips : Figure
+    class Square : Figure
     {
         public override void Draw()
         {
             base.Draw();
-            Console.WriteLine($"Полиморфизм - Почти круг");
+            Console.WriteLine($"Полиморфизм - ромб с равными сторонами");
         }
     }
 }

@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Lab1
 {
-    class Kvadrat: Figure
+    class Segment : Figure
     {
         public override void Draw()
         {
             base.Draw();
-            Console.WriteLine($"Полиморфизм - ромб с равными сторонами");
+            Console.WriteLine($"Полиморфизм - 2 точки");
         }
+
     }
 }

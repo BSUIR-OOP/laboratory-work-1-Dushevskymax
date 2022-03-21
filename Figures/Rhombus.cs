@@ -4,13 +4,12 @@ using System.Text;
 
 namespace Lab1
 {
-    class Otrezok: Figure
+    class Rhombus : Figure
     {
         public override void Draw()
         {
             base.Draw();
-            Console.WriteLine($"Полиморфизм - 2 точки");
+            Console.WriteLine($"Полиморфизм - все стороны равны");
         }
-
     }
 }

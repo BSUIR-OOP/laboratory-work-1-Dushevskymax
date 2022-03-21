@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab1
 {
-    class Pryamoug : Figure
+    class Rectangle : Figure
     {
         public override void Draw()
         {

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Lab1
 {
-    class Romb: Figure
+    class Ellipse : Figure
     {
         public override void Draw()
         {
             base.Draw();
-            Console.WriteLine($"Полиморфизм - все стороны равны");
+            Console.WriteLine($"Полиморфизм - Почти круг");
         }
     }
 }
